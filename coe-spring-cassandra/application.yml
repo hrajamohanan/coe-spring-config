@@ -1,0 +1,15 @@
+---
+spring:
+  cloud:
+    consul:
+      host: localhost
+      port: 8500
+      discovery:
+        healthCheckPath: /health
+        healthCheckInterval: 15s
+        
+        
+endpoints:
+  health:
+    sensitive: false
+
