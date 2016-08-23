@@ -1,0 +1,17 @@
+spring:
+  cloud:
+    consul:
+      host: localhost
+      port: 8500
+      discovery:
+        healthCheckPath: /health
+        healthCheckInterval: 15s
+    config:
+      env: dev # optional
+      profile: dev
+      label: master # optional
+      uri: http://localhost:8888/ # optionalendpoints:
+  health:
+    sensitive: false
+hello:
+  world: local-coe-web-dev-profile
