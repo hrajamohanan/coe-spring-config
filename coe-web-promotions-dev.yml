@@ -14,4 +14,4 @@ spring:
   health:
     sensitive: false
 hello:
-  world: local-coe-web-dev-profile
+  world: changed-coe-web-dev-profile**
