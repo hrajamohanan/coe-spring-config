@@ -8,6 +8,9 @@ spring:
         healthCheckPath: /health
         healthCheckInterval: 15s
         
+
+hello:
+  world: someDummyValue
         
 endpoints:
   health:
