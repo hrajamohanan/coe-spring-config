@@ -12,3 +12,6 @@ spring:
 endpoints:
   health:
     sensitive: false        
+
+hello:
+  world: thisIsNewValue
