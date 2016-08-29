@@ -1,7 +1,7 @@
 spring:
   cloud:
     consul:
-      host: localhost
+      host: 54.84.108.202
       port: 8500
       discovery:
         healthCheckPath: /health
@@ -10,7 +10,7 @@ spring:
       env: dev # optional
       profile: dev
       label: master # optional
-      uri: http://localhost:8888/ # optionalendpoints:
+      uri: http://54.84.108.202:8888/ # optionalendpoints:
   health:
     sensitive: false
 hello:
