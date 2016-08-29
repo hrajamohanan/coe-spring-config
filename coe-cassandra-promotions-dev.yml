@@ -1,7 +1,7 @@
 spring:
   cloud:
     consul:
-      host: localhost
+      host: 54.84.108.202
       port: 8500
       discovery:
         healthCheckPath: /health
